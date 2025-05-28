@@ -1,0 +1,9 @@
+.navbar ul{
+    display: flex;
+    color: white;
+    gap:10px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+}
