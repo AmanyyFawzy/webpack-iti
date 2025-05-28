@@ -44,15 +44,10 @@ module.exports = {
         type:"asset/resource"
       },
       //for font
-    {
-    test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-    use: {
-        loader: 'url-loader',
-        options: {
-        limit: 100000
-        }
-    }
-    }
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      }
 
     ]
   }
