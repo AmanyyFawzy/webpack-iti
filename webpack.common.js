@@ -1,8 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { watchFile } = require('fs');
-const { text } = require('stream/consumers');
-const { type } = require('os');
 
 module.exports = {
   entry: {
